@@ -1,5 +1,6 @@
 translate.selectLanguageTag.show = false; //不出现的select的选择语言
 translate.service.use('client.edge'); //设置机器翻译服务通道
+translate.ignore.id.push("no-lang");
 translate.execute();
 
 $(function() {
