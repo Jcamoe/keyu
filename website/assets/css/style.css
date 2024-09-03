@@ -2899,13 +2899,13 @@ body.mmm-open .mmm {
     padding: 1rem 0;
 }
 
-.main-mnu-list > li:hover > a > span, .main-mnu-list > li.active > a > span {
+/*.main-mnu-list > li:hover > a > span, .main-mnu-list > li.active > a > span {
     transform: translateY(100%);
-}
+}*/
 
-.main-mnu-list > li:hover > a::after, .main-mnu-list > li.active > a::after {
+/*.main-mnu-list > li:hover > a::after, .main-mnu-list > li.active > a::after {
     transform: none;
-}
+}*/
 
 .main-mnu-list > li > a {
     font-size: 0.9375rem;
