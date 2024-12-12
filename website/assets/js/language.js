@@ -1,6 +1,8 @@
 translate.selectLanguageTag.show = false; //不出现的select的选择语言
 translate.service.use('client.edge'); //设置机器翻译服务通道
+translate.ignore.class.push('global_lang_btn');
 translate.ignore.id.push("no-lang");
+//console.log(translate.ignore);
 translate.execute();
 
 $(function() {
@@ -27,6 +29,10 @@ $(function() {
 		translate.changeLanguage(language);
 		document.cookie = "Language=" + language;
 		document.cookie = "num=0";
+		/*document.querySelectorAll('[data-translate="no"]').forEach(el => {
+			console.log(el);
+		  	el.setAttribute('data-notranslate', 'true');
+		});*/
 	});
 });
 
